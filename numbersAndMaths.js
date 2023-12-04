@@ -17,3 +17,14 @@ console.log(hundreds.toLocaleString()); //Covert them into a form where numbers 
 console.log(hundreds.toString());//Convert the number into string
 console.log(hundreds.toString().length);//Find the length of the string
 
+/* **********************Maths******************** */
+
+console.log(Math);
+
+console.log(Math.abs(-4)); //Conver the number into absolute value
+console.log(Math.round(4.5)); //Round off the value
+console.log(Math.ceil(4.1));//Find the ceil value
+console.log(Math.floor(4.9)); //find the floor value
+console.log(Math.sqrt(4));//Find the square root of the given number
+
+
