@@ -9,3 +9,4 @@
 <p>8.Strings in javascript
 <p>9.Numbers and Math in JavaScript
 <p>10.Date and Time in JavaScript
+<p>11.Arrays in JavaScript
