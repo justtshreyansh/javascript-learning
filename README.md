@@ -7,3 +7,5 @@
 <p>6.Data types of javascript summary
 <p>7.Stack and heap memory in javascript
 <p>8.Strings in javascript
+<p>9.Numbers and Math in JavaScript
+<p>10.Date and Time in JavaScript
