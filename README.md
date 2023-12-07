@@ -10,3 +10,4 @@
 <p>9.Numbers and Math in JavaScript
 <p>10.Date and Time in JavaScript
 <p>11.Arrays in JavaScript
+<p>12.Object in JavaScript
