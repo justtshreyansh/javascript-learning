@@ -12,3 +12,5 @@
 <p>11.Arrays in JavaScript
 <p>12.Object in JavaScript
 <p>13.Functions in JavaScript
+<p>14.Global and local scope in JavaScript
+<p>15.This and Arrow functions
