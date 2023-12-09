@@ -1,0 +1,12 @@
+Javascript execution context
+
+1.Global execution context
+2.function execution context
+3.eval execution context
+
+memory creation phase
+execution phase
+
+call stack
+
+it works in lifo order and stored in stack
