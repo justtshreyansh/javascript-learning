@@ -18,3 +18,4 @@
 <p>17.Control flow in JavaScript
 <p>18.For,while and do while loop in javaScript
 <p>19.High order loops in JavaScript
+<p>20.Filter map and reduce in JavaScript
