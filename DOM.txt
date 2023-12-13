@@ -15,3 +15,20 @@ JavaScript can create new HTML events in the page
 
 In other words: The HTML DOM is a standard for how to get, change, add, or delete HTML elements.
 
+Important method and elements
+
+1.document.getElementById('title') -> select the element with id  =  title
+
+2.document.getElementById('title').style.backgroundColor = '#414141'; -> style the background color to #414141
+
+3.title.innerText -> it gives text which are visible.
+
+4.title.textContent -> it gives the text which are not visible even if display none property is applied.
+
+5.title.innerHTML -> it gives the whole html between the starting and ending tag. (span tag bhi de deta hai ye)
+
+6.document.querySelector('h1') -> it gives the first html element with h1 tag
+
+7.document.querySelectorAll('h1') -> it gives all the html element with h1 tag which is a node list
+
+
