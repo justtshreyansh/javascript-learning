@@ -21,3 +21,4 @@
 <p>20.Filter map and reduce in JavaScript
 <p>21.How to select element in JavaScript DOM
 <p>22.How to create element in JavaScript
+<p>23.How to edit and remove html element in javascript
