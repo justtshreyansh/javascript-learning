@@ -19,3 +19,5 @@
 <p>18.For,while and do while loop in javaScript
 <p>19.High order loops in JavaScript
 <p>20.Filter map and reduce in JavaScript
+<p>21.How to select element in JavaScript DOM
+<p>22.How to create element in JavaScript

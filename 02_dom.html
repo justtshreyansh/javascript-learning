@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM lecture 2</title>
+    <style>
+        body{
+            background-color: #212121;
+            color: #fff;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">thursday</div>
+    </div>
+    <script>
+        const parent = document.querySelector('.parent');
+        console.log(parent);
+        console.log(parent.children)
+
+        for(let i=0;i<parent.children.length;i++){
+            console.log(parent.children[i].innerHTML);
+        }
+        parent.children[1].style.color = "red";
+        console.log(parent.firstElementChild);
+        console.log(parent.lastElementChild);
+
+        const dayOne = document.querySelector('.day')
+        console.log(dayOne.parentElement);
+        console.log(dayOne.nextElementSibling);
+        console.log("Creating an element in html")
+        const div = document.createElement('div');
+        console.log(div)
+        div.className = "shreyansh"
+        div.id = "sneha"
+        div.setAttribute('title',"creatingDiv")
+        div.style.backgroundColor = "red"
+        div.style.padding = "15px"
+        div.innerText =  "Chai aur code"
+        const addText = document.createTextNode('chai aur code')
+        div.appendChild(addText)
+        document.body.appendChild(div)
+        
+
+    </script>
+</body>
+</html>
