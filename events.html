@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <img src="https://images.pexels.com/photos/18111569/pexels-photo-18111569/free-photo-of-photo-of-an-illuminated-kiosk-at-night.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"  id="image">
+</body>
+<script>
+    document.getElementById('image').addEventListener('click',function(e){
+        console.log("Owl clicked");
+        e.stopPropagation(); // used to prevent bubbling
+    },false)
+    //there is the third argument in addEventListner which is either true or false. (by default it is false) if it is false then it is bubbling which means inner to outer propogation but when it is true then it is event capturing which is outer to inner propogation
+
+    //e.preventDefault() prevent the default it is used in form
+
+</script>
+</html>
