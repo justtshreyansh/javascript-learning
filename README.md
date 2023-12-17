@@ -22,3 +22,4 @@
 <p>21.How to select element in JavaScript DOM
 <p>22.How to create element in JavaScript
 <p>23.How to edit and remove html element in javascript
+<p>24.Event listener in JavaScript
