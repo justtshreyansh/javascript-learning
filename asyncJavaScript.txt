@@ -1,0 +1,3 @@
+BY default javaScript is synchronous and single threaded
+each code wait for last one line to execute first.
+
