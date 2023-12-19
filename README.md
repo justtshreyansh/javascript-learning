@@ -24,3 +24,4 @@
 <p>23.How to edit and remove html element in javascript
 <p>24.Event listener in JavaScript
 <p>25.Async in JavaScript
+<p>26.Set Interval and Timeout interval in JavaScript.
