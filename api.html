@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #212121;
+            color: #fff;
+        }
+        
+        .card{
+            background-color: cadetblue;
+            width:400px;
+            height: 400px;
+           display: flex;
+           flex-direction: column;
+            margin: auto auto;
+            gap: 10px;
+            color: red;
+            border-radius: 15px;
+        }
+        .name{
+            width: 100px;
+            height: 30px;
+            background-color: cadetblue;
+            color: blue;
+            border-radius: 15px;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        
+        <div class="name"></div>
+        <div class="bio"></div>
+        <div class="followers"></div>
+        <div class="following"></div>
+    </div>
+</body>
+<script>
+    const name = document.querySelector('.name');
+    const bio = document.querySelector('.bio')
+    const followers = document.querySelector('.followers')
+    const following = document.querySelector('.following')
+    
+    const api = "https://api.github.com/users/hiteshchoudhary";
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET',api);
+    xhr.onreadystatechange = function(){
+        if(xhr.readyState===4){
+            const data = JSON.parse(this.responseText);
+            // console.log(data.followers);
+            // console.log(data.following);
+            // console.log(data.bio);
+            console.log(data);
+            
+            name.innerHTML = data.name;
+            bio.innerHTML = data.bio;
+            followers.innerHTML = data.followers;
+            following.innerHTML = data.following;
+            
+        }
+    }
+    xhr.send();
+
+
+</script>
+</html>
