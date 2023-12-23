@@ -27,3 +27,5 @@
 <p>26.Set Interval and Timeout interval in JavaScript.
 <p>27.API and V8 engine.
 <p>28.Promise in JavaScript
+<p>29.Fetch in JavaScript
+<p>30.OOP in JavaScript
