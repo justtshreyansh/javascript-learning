@@ -30,3 +30,4 @@
 <p>29.Fetch in JavaScript
 <p>30.OOP in JavaScript
 <p>31.Prototype in JavaScript.
+<p>32.Call and this in JavaScript.
