@@ -29,3 +29,4 @@
 <p>28.Promise in JavaScript
 <p>29.Fetch in JavaScript
 <p>30.OOP in JavaScript
+<p>31.Prototype in JavaScript.
