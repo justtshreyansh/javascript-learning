@@ -35,3 +35,4 @@
 <p>34.Inheritance in JavaScript.
 <p>35.Bind in JavaScript.
 <p>36.Getter and Setter in JavaScript.
+<p>37.Lexical Scoping and Closure.

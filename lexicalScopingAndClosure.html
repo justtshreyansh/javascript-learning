@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function outer(){
+        let username = "shreyansh";
+        function inner(){
+            console.log(username) //this is called lexical scoping because we can use a outer function variable into a inner function
+        }
+        inner();
+    }
+    outer();
+
+
+    function closure(){
+        let username = "shreyansh"
+        function displayName(){
+          console.log(username)
+        }
+        return displayName; //this is called closure since it is passing the reference of the function and the function is using the lexical scoping 
+    }
+    const func = closure();
+   func();
+</script>
+</html>
