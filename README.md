@@ -32,3 +32,4 @@
 <p>31.Prototype in JavaScript.
 <p>32.Call and this in JavaScript.
 <p>33.Constructor function in JavaScript.
+<p>34.Inheritance in JavaScript.
