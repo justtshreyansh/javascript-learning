@@ -33,3 +33,4 @@
 <p>32.Call and this in JavaScript.
 <p>33.Constructor function in JavaScript.
 <p>34.Inheritance in JavaScript.
+<p>35.Bind in JavaScript.
