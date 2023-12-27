@@ -34,3 +34,4 @@
 <p>33.Constructor function in JavaScript.
 <p>34.Inheritance in JavaScript.
 <p>35.Bind in JavaScript.
+<p>36.Getter and Setter in JavaScript.
